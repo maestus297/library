@@ -1,0 +1,29 @@
+.card {
+    width: 360px;
+    height: 240px;
+    border: 1px solid ivory;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #900c3f;
+}
+
+.wrapper {
+    display: grid;
+    align-items: center;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding: 4rem 2rem;
+    grid-gap: 1rem;
+}
+
+.button {
+
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    color: ivory ;
+}
+html {
+    background-color: #511845
+}
