@@ -4,7 +4,7 @@ const p = " pages";
 const not = "not ";
 const yet = " yet";
 
-let myLibrary = [{ Title: "The Hobbit", Author: "J.R.R. Tolkein", Pages: "295"}];
+let myLibrary = [null];
 let div, addBook, content, container, title, author, pages, read, i = 0;
 
 title = document.getElementById("title").value;
@@ -28,6 +28,7 @@ function addBookToLibrary() {
     addBook = new book();
     myLibrary.push(addBook);
     render();
+    modal.style.display = "none";
 }
 
 function render () {
@@ -51,13 +52,14 @@ var modal = document.getElementById("myModal");
 // Get the button that opens the modal
 var btn = document.getElementById("btn");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
+  
 }
+
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
