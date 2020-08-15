@@ -2,6 +2,12 @@
     text-align: center;
 }
 
+.card div {
+    text-align: left;
+    padding: 10%;
+    width: 80%;
+}
+
 .button {
     background-color: #a4a4a49c;
     border: #ffffffd1;
@@ -11,8 +17,8 @@
 }
 
 .card {
-    width: 360px;
-    height: 240px;
+    width: 240px;
+    height: 360x;
     border: 1px solid #b38b6deb;
     border-radius: 10px;
     text-align: center;
