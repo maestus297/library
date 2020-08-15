@@ -1,10 +1,23 @@
+.header {
+    text-align: center;
+}
+
+.button {
+    background-color: #a4a4a49c;
+    border: #ffffffd1;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #ffffffd1;
+}
+
 .card {
     width: 360px;
     height: 240px;
-    border: 1px solid ivory;
+    border: 1px solid #b38b6deb;
     border-radius: 10px;
     text-align: center;
-    background-color: #900c3f;
+    background-color: #b38b6deb;
+    color: #000000ab;
 }
 
 .wrapper {
@@ -18,11 +31,11 @@
 
 
 h1 {
-    font-family: 'Playfair Display', sans-serif;
-    color: ivory ;
+    color: #ffffffd1 ;
 }
 html {
-    background-color: #511845
+    background-image: url('https://www.detroitlabs.com/wp-content/uploads/2018/02/alfons-morales-YLSwjSy7stw-unsplash.jpg');
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .content {
@@ -46,18 +59,24 @@ html {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #511845;
+    background-color: #b38b6deb;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #511845;
+    border: 1px solid #b38b6deb;
     width: 20%; /* Could be more or less, depending on screen size */
     border-radius: 2em;
     text-align: left;
-    font-size: 20px;
+    color: #000000ab;
   }
   
   .input {
     width: 90%;
+    background-color: #ffffffd1;
+    border: #fff;
+    border-radius: 7px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   .close:hover,

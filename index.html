@@ -11,10 +11,11 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
+<div class="header">
 <h1>Library</h1>
 
 <button class="button" id="btn" onclick="">Add Book</button>
-
+</div>
 <div id="myModal" class="modal">
   <div class="modal-content">
     <div>
@@ -24,10 +25,12 @@
     <input class="input" id="author">
     <p>Pages: </p>
     <input class="input" id="pages">
-    <p>Read: </p>
-    <input id="read-status" type="checkbox" value="check">
+    <span>
+      <p>Read: </p>
+      <input id="read-status" type="checkbox" value="check">
+    </span>
   </div>
-  <button class="submit" id="submit" onclick="addBookToLibrary()">Add</button>
+  <button class="button" id="submit" onclick="addBookToLibrary()">Add</button>
   </div>
 </div>
 
