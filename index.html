@@ -18,16 +18,16 @@
 </div>
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <div>
-    <p>Title: </p>
+    <div style="display:grid;">
+    <label>Title: </label>
     <input class="input" id="title">
-    <p>Author: </p>
+    <label>Author: </label>
     <input class="input" id="author">
-    <p>Pages: </p>
+    <label>Pages: </label>
     <input class="input" id="pages">
     <span style="display: flex;">
-      <p>Read: </p>
-      <input id="read-status" type="checkbox" value="check" style="margin-left:1em;">
+      <label for="read-status">Read: </label>
+      <input id="read-status" type="checkbox" value="check" style="padding-left:1em;">
     </span>
   </div>
   <button class="button" id="submit" onclick="addBookToLibrary()">Add</button>

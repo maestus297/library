@@ -7,12 +7,6 @@ const yet = " yet";
 let myLibrary = [null];
 let div, addBook, content, container, title, author, pages, read, i = 0;
 
-title = document.getElementById("title").value;
-author = document.getElementById("author").value;
-pages = document.getElementById("pages").value;
-
-
-
 function book(){
     this.Title = title,
     this.Author = author,
@@ -23,6 +17,9 @@ function book(){
 
 
 function addBookToLibrary() {
+    title = document.getElementById("title").value;
+    author = document.getElementById("author").value;
+    pages = document.getElementById("pages").value;
     i++;
     i+='';
     addBook = new book();

@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+label {
+    padding: 5%;
+    padding-left: 1%;
+}
+
 .card div {
     text-align: left;
     padding: 10%;
@@ -80,9 +85,7 @@ html {
     background-color: #ffffffd1;
     border: #fff;
     border-radius: 7px;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 3%;
   }
 
   .close:hover,
